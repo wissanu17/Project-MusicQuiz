@@ -201,7 +201,7 @@ MonoBehaviour:
     audioClip: {fileID: 0}
     videoClip: {fileID: 0}
     options:
-    - C# mino
+    - C# minor
     - C minor
     - E minor
     - G major
