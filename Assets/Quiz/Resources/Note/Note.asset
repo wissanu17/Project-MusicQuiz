@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Note
+  m_EditorClassIdentifier: 
+  categoryName: EAR TRAINING
+  questions:
+  - questionInfo: What note do yo here ? C
+    questionHead: C
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 9fab245d3fefcae46a879903ce76b30b, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - D
+    - E
+    - G#
+    correctAns: C
+  - questionInfo: What note do yo here ? C#
+    questionHead: C#
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 7c7aced7d52cb5f4ab698ae9a7b31eb8, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C#
+    - D
+    - E
+    - G#
+    correctAns: C#
+  - questionInfo: What note do yo here ? D
+    questionHead: D
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 503816a5234ac654d9c29c7cea4d6c87, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - D
+    - E
+    - G#
+    correctAns: D
+  - questionInfo: What note do yo here ? D#
+    questionHead: D#
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 4508f369dd8874a4499d39f270e3a9d7, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - D#
+    - E
+    - G#
+    correctAns: D#
+  - questionInfo: What note do yo here ? E
+    questionHead: E
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 5d6dda4512f387a41921e4b3cab909de, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - D
+    - E
+    - G#
+    correctAns: E
+  - questionInfo: What note do yo here ? F
+    questionHead: F
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 613cdddd01ed44d4bb6d9e649f9a9b14, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - F
+    - E
+    - G#
+    correctAns: F
+  - questionInfo: What note do yo here ? F#
+    questionHead: F#
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: ccf2a9d131c331a4e9de99120c5bdf0f, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - F#
+    - D
+    - E
+    - G#
+    correctAns: F#
+  - questionInfo: What note do yo here ? G
+    questionHead: G
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 9fb1d193c2b6aa742b2af4bd5ef6540c, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - G
+    - E
+    - G#
+    correctAns: G
+  - questionInfo: What note do yo here ? G#
+    questionHead: G#
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 1e894210dbfbac44a9aa21ef551dec7e, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - D
+    - E
+    - G#
+    correctAns: G#
+  - questionInfo: What note do yo here ? A
+    questionHead: A
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 8077717da46ebe4459817bf5a1ca9536, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - A
+    - E
+    - G#
+    correctAns: A
+  - questionInfo: What note do yo here ? A#
+    questionHead: A#
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 554778fadbdeaf148bf554e06c417341, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - D
+    - A#
+    - G#
+    correctAns: A#
+  - questionInfo: What note do yo here ? B
+    questionHead: B
+    questionType: 2
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: 061a924a099af644d9683b04a4e2c8a4, type: 3}
+    videoClip: {fileID: 0}
+    options:
+    - C
+    - B
+    - E
+    - G#
+    correctAns: B

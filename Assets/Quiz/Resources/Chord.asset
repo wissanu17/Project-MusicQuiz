@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Chord
+  m_EditorClassIdentifier: 
+  categoryName: CHORD PROGRESSION
+  questions:
+  - questionInfo: C - E - G
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - C minor
+    - E minor
+    - G major
+    correctAns: C major
+  - questionInfo: C - Eb - G
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - ' C major'
+    - C minor
+    - E minor
+    - G major
+    correctAns: C minor
+  - questionInfo: D - F# - A
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - C minor
+    - E minor
+    - D major
+    correctAns: D major
+  - questionInfo: D - F - A
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - C minor
+    - D minor
+    - G major
+    correctAns: D minor
+  - questionInfo: E - G# - B
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - E major
+    - C minor
+    - E minor
+    - G major
+    correctAns: E major
+  - questionInfo: E - G - B
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - C minor
+    - E minor
+    - G major
+    correctAns: E minor
+  - questionInfo: F - A - C
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - F major
+    - C minor
+    - E minor
+    - G major
+    correctAns: ' F major'
+  - questionInfo: F - G# - C
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - F minor
+    - E minor
+    - G major
+    correctAns: F minor
+  - questionInfo: G - B - D
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - F minor
+    - C minor
+    - E minor
+    - G major
+    correctAns: ' G major'
+  - questionInfo: G - Bb - D
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - G minor
+    - E minor
+    - G major
+    correctAns: ' G minor'
+  - questionInfo: A - C# - E
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - C minor
+    - E minor
+    - A major
+    correctAns: A major
+  - questionInfo: A - C - E
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C major
+    - C minor
+    - A minor
+    - G major
+    correctAns: A minor
+  - questionInfo: B - D# - F#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - B major
+    - C minor
+    - E minor
+    - G major
+    correctAns: B major
+  - questionInfo: B - D - F#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - B minor
+    - C minor
+    - E minor
+    - G major
+    correctAns: B minor
+  - questionInfo: C# - F - G#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C# major
+    - C minor
+    - E minor
+    - G major
+    correctAns: C# major
+  - questionInfo: C# - E - G#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - C# mino
+    - C minor
+    - E minor
+    - G major
+    correctAns: C# minor
+  - questionInfo: D# - G - A#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - D# major
+    - C minor
+    - E minor
+    - G major
+    correctAns: D# major
+  - questionInfo: D# - F# - A#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - D# minor
+    - C minor
+    - E minor
+    - G major
+    correctAns: D# minor
+  - questionInfo: F# - A# - C#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - D# minor
+    - C minor
+    - E minor
+    - F# major
+    correctAns: F# major
+  - questionInfo: F# - A - C#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - D# minor
+    - F# minor
+    - E minor
+    - F# major
+    correctAns: F# minor
+  - questionInfo: G# - C - D#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - G# major
+    - C minor
+    - E minor
+    - G major
+    correctAns: G# major
+  - questionInfo: G# - B - D#
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - G# minor
+    - C minor
+    - E minor
+    - G major
+    correctAns: G# minor
+  - questionInfo: A# - D - F
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - A# major
+    - C minor
+    - E minor
+    - G major
+    correctAns: A# major
+  - questionInfo: A# - C# - F
+    questionHead: What chord ?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - A# minor
+    - C minor
+    - E minor
+    - G major
+    correctAns: A# minor
