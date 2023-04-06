@@ -15,7 +15,7 @@ MonoBehaviour:
   categoryName: CHORD PROGRESSION
   questions:
   - questionInfo: C - E - G
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -27,19 +27,19 @@ MonoBehaviour:
     - G major
     correctAns: C major
   - questionInfo: C - Eb - G
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
     videoClip: {fileID: 0}
     options:
-    - ' C major'
+    - C major
     - C minor
     - E minor
     - G major
     correctAns: C minor
   - questionInfo: D - F# - A
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -51,7 +51,7 @@ MonoBehaviour:
     - D major
     correctAns: D major
   - questionInfo: D - F - A
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -63,7 +63,7 @@ MonoBehaviour:
     - G major
     correctAns: D minor
   - questionInfo: E - G# - B
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -75,7 +75,7 @@ MonoBehaviour:
     - G major
     correctAns: E major
   - questionInfo: E - G - B
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -87,7 +87,7 @@ MonoBehaviour:
     - G major
     correctAns: E minor
   - questionInfo: F - A - C
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -99,7 +99,7 @@ MonoBehaviour:
     - G major
     correctAns: ' F major'
   - questionInfo: F - G# - C
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -111,7 +111,7 @@ MonoBehaviour:
     - G major
     correctAns: F minor
   - questionInfo: G - B - D
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -121,9 +121,9 @@ MonoBehaviour:
     - C minor
     - E minor
     - G major
-    correctAns: ' G major'
+    correctAns: G major
   - questionInfo: G - Bb - D
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -133,9 +133,9 @@ MonoBehaviour:
     - G minor
     - E minor
     - G major
-    correctAns: ' G minor'
+    correctAns: G minor
   - questionInfo: A - C# - E
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -147,7 +147,7 @@ MonoBehaviour:
     - A major
     correctAns: A major
   - questionInfo: A - C - E
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -159,7 +159,7 @@ MonoBehaviour:
     - G major
     correctAns: A minor
   - questionInfo: B - D# - F#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -171,7 +171,7 @@ MonoBehaviour:
     - G major
     correctAns: B major
   - questionInfo: B - D - F#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -183,7 +183,7 @@ MonoBehaviour:
     - G major
     correctAns: B minor
   - questionInfo: C# - F - G#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -195,7 +195,7 @@ MonoBehaviour:
     - G major
     correctAns: C# major
   - questionInfo: C# - E - G#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -207,7 +207,7 @@ MonoBehaviour:
     - G major
     correctAns: C# minor
   - questionInfo: D# - G - A#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -219,7 +219,7 @@ MonoBehaviour:
     - G major
     correctAns: D# major
   - questionInfo: D# - F# - A#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -231,7 +231,7 @@ MonoBehaviour:
     - G major
     correctAns: D# minor
   - questionInfo: F# - A# - C#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -243,7 +243,7 @@ MonoBehaviour:
     - F# major
     correctAns: F# major
   - questionInfo: F# - A - C#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -255,7 +255,7 @@ MonoBehaviour:
     - F# major
     correctAns: F# minor
   - questionInfo: G# - C - D#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -267,7 +267,7 @@ MonoBehaviour:
     - G major
     correctAns: G# major
   - questionInfo: G# - B - D#
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -279,7 +279,7 @@ MonoBehaviour:
     - G major
     correctAns: G# minor
   - questionInfo: A# - D - F
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}
@@ -291,7 +291,7 @@ MonoBehaviour:
     - G major
     correctAns: A# major
   - questionInfo: A# - C# - F
-    questionHead: What chord ?
+    questionHead: What chord is this?
     questionType: 0
     questionImage: {fileID: 0}
     audioClip: {fileID: 0}

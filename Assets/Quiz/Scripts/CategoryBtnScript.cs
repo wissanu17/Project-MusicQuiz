@@ -16,7 +16,7 @@ public class CategoryBtnScript : MonoBehaviour
     {
         categoryTitleText.text = title;
         //set the score that user play and anwer correct and show to category
-        scoreText.text = PlayerPrefs.GetInt(title, 0) + "/" + totalQuestion; 
+        scoreText.text = PlayerPrefs.GetInt(title, 0)*10 + "\n/" + totalQuestion*10; 
     }
 
 }

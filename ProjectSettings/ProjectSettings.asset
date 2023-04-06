@@ -12,7 +12,7 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: Potae & Karn company
+  companyName: EN company
   productName: Music Quiz
   defaultCursor: {fileID: 2800000, guid: 6570f5efdb4c2454a9fd40384c25fdd1, type: 3}
   cursorHotspot: {x: 0, y: 0}

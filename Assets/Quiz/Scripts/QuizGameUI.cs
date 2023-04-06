@@ -10,7 +10,7 @@ public class QuizGameUI : MonoBehaviour
     [SerializeField] private QuizManager quizManager;
     [SerializeField] private CategoryBtnScript categoryBtnPrefab;
     [SerializeField] private GameObject scrollHolder;
-    [SerializeField] private Text scoreText, timerText;
+    [SerializeField] private Text scoreText, timerText, endScore ;
     [SerializeField] private List<Image> lifeImageList;
     [SerializeField] private GameObject gameOverPanel, mainMenu, gamePanel;
     [SerializeField] private Color correctCol, wrongCol, normalCol; //color of buttons
@@ -19,6 +19,7 @@ public class QuizGameUI : MonoBehaviour
     [SerializeField] private AudioSource questionAudio;             //audio source for audio clip
     [SerializeField] private Text questionInfoText, questionHeadText; //text to show question
     [SerializeField] private List<Button> options; //options button follow the question list
+    //[SerializeField] private Button PlayAudio;
 #pragma warning restore 649
 
     private float audioLength;          //store audio length
@@ -27,7 +28,9 @@ public class QuizGameUI : MonoBehaviour
 
     public Text TimerText { get => timerText; }
     public Text ScoreText { get => scoreText; }
+    public Text EndScore {get => endScore; }
     public GameObject GameOverPanel { get => gameOverPanel; }
+    //public Button PlayAAudio {get => PlayAudio}
 
     private void Start()
     {
@@ -118,9 +121,10 @@ public class QuizGameUI : MonoBehaviour
         //if questionType is audio
         if (question.questionType == QuestionType.AUDIO)
         {
+            yield return new WaitForSeconds(0.2f);
             questionAudio.PlayOneShot(question.audioClip);
-            yield return new WaitForSeconds(audioLength + 0.5f);
-            StartCoroutine(PlayAudio());
+            // yield return new WaitForSeconds(audioLength + 0.5f);
+            // StartCoroutine(PlayAudio());
         }
         else //if questionType is not audio
         {

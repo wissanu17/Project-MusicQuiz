@@ -96,9 +96,9 @@ public class QuizManager : MonoBehaviour
             //Yes, Ans is correct
             correctAnswerCount++;
             correct = true;
-            gameScore += 1;
+            gameScore += 10;
             quizGameUI.ScoreText.text = "Score : " + gameScore;
-            currentTime+=10;
+            currentTime+=5;
         }
         else
         {
@@ -131,7 +131,9 @@ public class QuizManager : MonoBehaviour
     private void GameEnd()
     {
         gameStatus = GameStatus.NEXT;
+        // quizGameUI.EndScore.text = "Score : " + gameScore;
         quizGameUI.GameOverPanel.SetActive(true);
+        quizGameUI.EndScore.text = "Your score : " + gameScore;
         
         //save the highest score
         if (correctAnswerCount > PlayerPrefs.GetInt(currentCategory)) 

@@ -14,20 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   categoryName: EAR TRAINING
   questions:
-  - questionInfo: What note do yo here ? C
-    questionHead: C
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 9fab245d3fefcae46a879903ce76b30b, type: 3}
     videoClip: {fileID: 0}
     options:
     - C
-    - D
-    - E
+    - D#
+    - Eb
     - G#
     correctAns: C
-  - questionInfo: What note do yo here ? C#
-    questionHead: C#
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 7c7aced7d52cb5f4ab698ae9a7b31eb8, type: 3}
@@ -36,58 +36,58 @@ MonoBehaviour:
     - C#
     - D
     - E
-    - G#
+    - A
     correctAns: C#
-  - questionInfo: What note do yo here ? D
-    questionHead: D
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 503816a5234ac654d9c29c7cea4d6c87, type: 3}
     videoClip: {fileID: 0}
     options:
-    - C
+    - C#
     - D
-    - E
+    - Bb
     - G#
     correctAns: D
-  - questionInfo: What note do yo here ? D#
-    questionHead: D#
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 4508f369dd8874a4499d39f270e3a9d7, type: 3}
     videoClip: {fileID: 0}
     options:
-    - C
+    - B
     - D#
     - E
-    - G#
+    - F
     correctAns: D#
-  - questionInfo: What note do yo here ? E
-    questionHead: E
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 5d6dda4512f387a41921e4b3cab909de, type: 3}
     videoClip: {fileID: 0}
     options:
-    - C
+    - Ab
     - D
     - E
-    - G#
+    - A#
     correctAns: E
-  - questionInfo: What note do yo here ? F
-    questionHead: F
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 613cdddd01ed44d4bb6d9e649f9a9b14, type: 3}
     videoClip: {fileID: 0}
     options:
-    - C
+    - F#
     - F
-    - E
+    - Db
     - G#
     correctAns: F
-  - questionInfo: What note do yo here ? F#
-    questionHead: F#
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: ccf2a9d131c331a4e9de99120c5bdf0f, type: 3}
@@ -96,22 +96,22 @@ MonoBehaviour:
     - F#
     - D
     - E
-    - G#
+    - A
     correctAns: F#
-  - questionInfo: What note do yo here ? G
-    questionHead: G
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 9fb1d193c2b6aa742b2af4bd5ef6540c, type: 3}
     videoClip: {fileID: 0}
     options:
-    - C
+    - Bb
     - G
-    - E
-    - G#
+    - Eb
+    - A#
     correctAns: G
-  - questionInfo: What note do yo here ? G#
-    questionHead: G#
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 1e894210dbfbac44a9aa21ef551dec7e, type: 3}
@@ -122,20 +122,20 @@ MonoBehaviour:
     - E
     - G#
     correctAns: G#
-  - questionInfo: What note do yo here ? A
-    questionHead: A
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 8077717da46ebe4459817bf5a1ca9536, type: 3}
     videoClip: {fileID: 0}
     options:
-    - C
+    - C#
     - A
-    - E
+    - Eb
     - G#
     correctAns: A
-  - questionInfo: What note do yo here ? A#
-    questionHead: A#
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 554778fadbdeaf148bf554e06c417341, type: 3}
@@ -144,17 +144,17 @@ MonoBehaviour:
     - C
     - D
     - A#
-    - G#
+    - F
     correctAns: A#
-  - questionInfo: What note do yo here ? B
-    questionHead: B
+  - questionInfo: What note did you here?
+    questionHead: What note did you here?
     questionType: 2
     questionImage: {fileID: 0}
     audioClip: {fileID: 8300000, guid: 061a924a099af644d9683b04a4e2c8a4, type: 3}
     videoClip: {fileID: 0}
     options:
-    - C
+    - Bb
     - B
-    - E
-    - G#
+    - Eb
+    - F#
     correctAns: B
